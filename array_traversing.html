@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<input type="text" id="element">
+<button onclick="getElement()">Get Element</button>
+</body>
+<script>
+
+    console.log("Array Traversing");
+
+let data = [9,34,45,35,4,3,6,7,8,10,89];
+
+// for(let i = 0; i<data.length; i++){
+//     console.log(data[i])
+    
+// }
+
+let x = 3;
+console.log(data)
+
+function getElement(){
+     let el = document.getElementById('element').value
+    if(el<data.length  && typeof parseInt(el) === "number" && el>=0){
+   
+    alert(data[el])
+    }else{
+        alert("Please enter valid input from 0-10")
+    }
+
+}
+</script>
+</html>
