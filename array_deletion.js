@@ -10,17 +10,18 @@
 // console.log(arr);
 
 
-let arr = [20,40,10,4,5,60,70];
-let position = 3;
+// let arr = [20,40,10,4,5,60,70];
+// let position = 3;
 
 
-for(let i = position; i < arr.length-1; i++){
-    arr[i] = arr[i+1];
-}
+// for(let i = position; i < arr.length-1; i++){
+//     arr[i] = arr[i+1];
+// }
 
-arr.length--
+// arr.length--
 
-console.log(arr)
+// console.log(arr)
+
 
 
 
