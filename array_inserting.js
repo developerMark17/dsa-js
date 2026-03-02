@@ -55,3 +55,14 @@
 // arr[position] = newEl
 // console.log(arr)
 
+
+let arr = [1,2,4,5,6,7]
+let position = 2;
+let newEl = 3;
+
+for(i = arr.length-1; i>=position; i--){
+    arr [i+1]= arr[i];
+
+}
+arr[position] = newEl;
+console.log(arr)
